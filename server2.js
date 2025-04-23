@@ -10,7 +10,7 @@ const app = express();
 // ✅ Enable CORS securely
 app.use(
   cors({
-    origin: "https://college-schedule.vercel.app/", // Change this to your frontend URL in production
+    origin: "https://griet-digital-schedule.vercel.app/", // Change this to your frontend URL in production
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type"],
   })
