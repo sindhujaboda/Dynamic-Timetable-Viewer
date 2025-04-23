@@ -39,9 +39,9 @@ node server.js
 
 The app is deployed and available at:
 
-[https://college-schedule.vercel.app](https://college-schedule.vercel.app)
+
 
 ---
 
-For any issues or contributions, feel free to open an issue or pull request on the [GitHub repository](https://github.com/Bkarthik07/college-schedule).
+For any issues or contributions, feel free to open an issue or pull request on the
 
