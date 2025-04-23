@@ -39,6 +39,7 @@ node server.js
 
 The app is deployed and available at:
 
+[https://griet-digital-schedule.vercel.app/](https://griet-digital-schedule.vercel.app/)
 
 
 ---
