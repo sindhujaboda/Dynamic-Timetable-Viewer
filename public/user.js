@@ -126,7 +126,7 @@ classScheduleForm.addEventListener('submit', async (e) => {
 
     try {
         // Send data to the backend to add the schedule
-        const response = await fetch('https://college-schedule.vercel.app/addSchedule', {
+        const response = await fetch('https://griet-digital-schedule.vercel.app/addSchedule', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -203,7 +203,7 @@ document.getElementById('view-schedule-btn').addEventListener('click', function(
     const day = document.getElementById('day').value;
 
     // Make the API request to get the schedule
-    fetch(`https://college-schedule.vercel.app/getSchedule?year=${encodeURIComponent(year)}&department=${encodeURIComponent(department)}&section=${encodeURIComponent(section)}&day=${encodeURIComponent(day)}`)
+    fetch(`https://griet-digital-schedule.vercel.app/getSchedule?year=${encodeURIComponent(year)}&department=${encodeURIComponent(department)}&section=${encodeURIComponent(section)}&day=${encodeURIComponent(day)}`)
         .then(response => response.json())
         .then(data => {
             if (data.error) {
